@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather&family=Pacifico&display=swap');
+
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: darkgoldenrod;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo a{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+section{
+    padding: 5% 10%;
+}
+.main-home{
+    width: 80%;
+    height:80vh ;
+    background-image: url(images/daily-jewelry.png);
+    background-position: center ;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+.main-text h5{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.main-text h1{
+    color: white;
+    font-size: 70px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+.main-text p{
+    font-style: italic;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+.main-btn{
+    display: inline-block;
+    color: saddlebrown;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 2px solid saddlebrown;
+    padding: 12px 25px;
+    transition: all .42s ease;
+    border-radius: 50px;
+}
+.wrapper{
+    width: 900;
+    margin: 0 auto;
+    font-family: calibri;
+}
+.services{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    align-items: center;
+
+}
+.section-1{
+    width: 290px;
+    float: left;
+    margin-right: 10px;
+    align-items: center;
+    padding-left: 8%;
+    
+}
+.section-1 img{
+    width: 100%;
+}
+.section-1 h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: saddlebrown;
+    margin-top: -4px;
+
+}
+.services h2{
+    font-family: 'Merriweather', serif;
+    font-size: 45px;
+    font-weight: 100;
+}
+.section-1 img:hover{
+    border: 3px solid saddlebrown;
+}
+.main-btn:hover{
+    background-color: saddlebrown;
+    color: white;
+}
